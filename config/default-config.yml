@@ -1,0 +1,198 @@
+---
+# ---------------------------------------------------------------
+# Must keep this file since it defines all default values.
+# ---------------------------------------------------------------
+
+# ---------------------------------------------------------------
+# Spring boot
+# ---------------------------------------------------------------
+springboot:
+  server.port: 8008
+  server.session.timeout: 43200
+  spring.http.multipart.max-file-size: 10000MB
+  spring.http.multipart.max-request-size: 10000MB
+
+# ---------------------------------------------------------------
+# Elasticsearch
+# ---------------------------------------------------------------
+elasticsearch:
+  host: 172.16.3.10
+  port: 9300
+  mines_local_data_dir: '/mnt/disk3/aiops'
+  mines_data_dir: 'hdfs://nameservice1/aiops'
+  mines_save_local_enable: true
+  cluster_name: elasticsearch
+  data_index: test
+  query_index: query
+  type_name: default
+  search_page_size: 10
+  bulk_size: 1000
+  bucket_size: 100
+  full_txt_search_boost: 2
+  highlight_pre_tag: '<label style="color: blue">'
+  highlight_post_tag: '</label>'
+  top_answer_num: 5
+  top_inputer_num: 10
+  short_query_threshold: 10
+  normal_query_threshold: 70%
+  exception_query_threshold: 100%
+  # -------------------------------------------------------------
+  # Setting
+  # -------------------------------------------------------------
+  setting:
+    number_of_shards: 1
+    analysis:
+      analyzer:
+        aiopsIK:
+          type: custom
+          tokenizer: ik_max_word
+          filter:
+            - stemmer
+  # -------------------------------------------------------------
+  # Data Index Mapping
+  # -------------------------------------------------------------
+  data_mapping:
+    properties:
+      solution: &default
+        type: text
+        analyzer: aiopsIK
+        search_analyzer: aiopsIK
+      component:
+        <<: *default
+        fielddata: true
+        fields:
+          keyword:
+            type: keyword
+      problemDetails:
+        <<: *default
+      userName:
+        type: keyword
+      timestamp:
+        type: date
+  # -------------------------------------------------------------
+  # Query Index Mapping
+  # -------------------------------------------------------------
+  query_mapping:
+    properties:
+      timestamp:
+        type: date
+      docId:
+        type: keyword
+      query:
+        type: text
+        analyzer: aiopsIK
+        search_analyzer: aiopsIK
+
+# ---------------------------------------------------------------
+# Sar Module
+# ---------------------------------------------------------------
+sar:
+  config_dir: <default>
+
+# ---------------------------------------------------------------
+# Log Module
+# ---------------------------------------------------------------
+log:
+  # -------------------------------------------------------------
+  # Component keywords map
+  # -------------------------------------------------------------
+  component_keywords:
+    inceptor:
+      - hive
+      - inceptor
+    search:
+      - elasticsearch
+    manager:
+      - manager
+
+  # -------------------------------------------------------------
+  # Log entry formats
+  # -------------------------------------------------------------
+  entry_format:
+    inceptor:
+      config:
+        time_format: 'yyyy-MM-dd HH:mm:ss,SSS'
+        patterns:
+          - head
+          - timestamp
+          - level
+      head: '^\d{4}-\d{2}-\d{2}'
+      timestamp: '^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}'
+      level: 'DEBUG|TRACE|INFO|WARN|WARNING|ERROR|FATAL'
+      unit:
+        - 'SessionHandle='
+        - ')'
+
+  # -------------------------------------------------------------
+  # Model templates
+  # -------------------------------------------------------------
+  model_template:
+    inceptor:
+      component: INCEPTOR
+      id: 0
+      name: 'Run Sql'
+      desc: 'Running a single SQL'
+      # NOTE: the previous log back-end does not support the following pre and post.
+      # pre: '<PERFLOG method=Driver.run>'
+      # post: '</PERFLOG method=Driver.run start=[0-9]+ end=[0-9]+ duration=[0-9]+>'
+      pre: '<PERFLOG method=compile>'
+      post: '</PERFLOG method=Driver.execute start=[0-9]+ end=[0-9]+ duration=[0-9]+>'
+      taskList:
+        - id: 0
+          name: 'Parsing And Logical Plan'
+          desc: 'Parsing SQL to logical plan'
+          pre: '<PERFLOG method=compile>'
+          post: '</PERFLOG method=compile start=[0-9]+ end=[0-9]+ duration=[0-9]+>'
+        - id: 1
+          name: 'Acquire Lock'
+          desc: 'Acquire meta lock'
+          pre: '<PERFLOG method=acquireReadWriteLocks>'
+          post: '</PERFLOG method=acquireReadWriteLocks start=[0-9]+ end=[0-9]+ duration=[0-9]+>'
+          optional: true
+        - id: 2
+          name: 'Physical Plan'
+          desc: 'Generating physical plans and running'
+          pre: '<PERFLOG method=Driver.execute>'
+          post: '</PERFLOG method=Driver.execute start=[0-9]+ end=[0-9]+ duration=[0-9]+>'
+          taskList:
+            - id: 0
+              name: 'Run Job [execution]'
+              desc: 'Running one physical plan(job) on inceptor core engine'
+              pre: 'Starting job: runJob'
+              post: 'Job finished: runJob'
+              optional: true
+
+# ---------------------------------------------------------------
+# Jstack Module
+# ---------------------------------------------------------------
+jstack:
+  # -------------------------------------------------------------
+  #  Stack Trace List
+  # -------------------------------------------------------------
+  stack_trace:
+    inceptor:
+      blackList:
+        - 'EPollArrayWrapper'
+      whiteList:
+        - 'AbstractConnector'
+    hdfs:
+      blackList:
+        - 'EPollArrayWrapper'
+      whiteList:
+        - 'ServerSocketChannelImpl'
+    hbase:
+      blackList:
+        - 'EPollArrayWrapper'
+      whiteList:
+        - 'callAppenders'
+
+  # -------------------------------------------------------------
+  #  Thread Group List
+  # -------------------------------------------------------------
+  thread_group:
+    blackList:
+      - 'shuffle-server'
+    whiteList:
+      - 'I/O dispatcher'
+  thread_group_min_size: 3
+  thread_group_name_min_length: 6

@@ -1,0 +1,5 @@
+springboot:
+  server.port: 6666
+  server.session.timeout: 1234
+  spring.http.multipart.max-file-size: 10GB
+  spring.http.multipart.max-request-size: 10GB

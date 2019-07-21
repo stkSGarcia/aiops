@@ -1,0 +1,323 @@
+// import * as React from 'react';
+// import {
+//   AnalyzeResponse,
+//   BlackWhiteList,
+//   BlackWhiteResponse,
+//   JstackEntryWithLevel,
+//   JstackFileInfo,
+// } from './conf/DataStructure';
+// import { Button, Dropdown, Icon, Menu, Modal, notification } from 'antd';
+// import Config from '../Config';
+// import axios from 'axios';
+// import ListConf from './util/ListConf';
+// import Store from './conf/CacheStore';
+// import HistoryFileDashboard from './HistoryFileDashboard';
+//
+// interface HistoryDashboardState {
+//   fileInfo: JstackFileInfo;
+//   tab: string;
+//   visible: boolean;
+//   visible1: boolean;
+//   listRes: BlackWhiteList;
+//   components: string[];
+//   index: number;
+//   comp: string;
+//   allHistory: string[];
+// }
+//
+// export default class HistoryDashboard extends React.Component<any, HistoryDashboardState> {
+//   isFirst: boolean[] = [];
+//   threadGroupFirst = true;
+//   currentIndex: number = 0;
+//   listResults: BlackWhiteList[] = [];
+//   threadGroupRes: BlackWhiteList;
+//
+//   initIsFirst = () => {
+//     for (var i = 0; i < this.state.components.length; i++) {
+//       this.isFirst.push(true);
+//     }
+//   }
+//
+//   updateCallstackLevel = (fileInfo: JstackFileInfo) => {
+//
+//     let updateLevel = (callStackMap: {
+//       [callStack: string]: JstackEntryWithLevel,
+//     }) => {
+//       Object.keys(callStackMap).forEach((value, index) => {
+//         var hasFind = false;
+//         callStackMap[value].keyword = [];
+//
+//         for (var white of this.state.listRes.whiteList) {
+//           if (value.includes(white)) {
+//             callStackMap[value].level = 2;
+//             callStackMap[value].keyword.push(white);
+//             hasFind = true;
+//           }
+//         }
+//         if (!hasFind) {
+//           for (var black of this.state.listRes.blackList) {
+//             if (value.includes(black)) {
+//               callStackMap[value].level = 0;
+//               hasFind = true;
+//               break;
+//             }
+//           }
+//         }
+//         if (!hasFind) {
+//           callStackMap[value].level = 1;
+//         }
+//       });
+//     };
+//
+//     updateLevel(fileInfo.callStackMap);
+//
+//     const data = {
+//       fileInfo: fileInfo,
+//     };
+//     return data;
+//   }
+//
+//   updateThreadGroupLevel = (fileInfo: JstackFileInfo) => {
+//
+//     let updateLevel = (groupMap: {
+//       [groupName: string]: JstackEntryWithLevel,
+//     }) => {
+//       Object.keys(groupMap).forEach((value, index) => {
+//         var hasFind = false;
+//         for (var white of this.state.listRes.whiteList) {
+//           if (value.includes(white)) {
+//             groupMap[value].level = 2;
+//             hasFind = true;
+//             break;
+//           }
+//         }
+//         if (!hasFind) {
+//           for (var black of this.state.listRes.blackList) {
+//             if (value.includes(black)) {
+//               groupMap[value].level = 0;
+//               hasFind = true;
+//               break;
+//             }
+//           }
+//         }
+//         if (!hasFind) {
+//           groupMap[value].level = 1;
+//         }
+//       });
+//     };
+//
+//     updateLevel(fileInfo.groupMap);
+//
+//     const data = {
+//       fileInfo: fileInfo,
+//     };
+//     return data;
+//   }
+//
+//   showModal = (component: string) => {
+//     let index = this.state.components.indexOf(component);
+//     this.currentIndex = index;
+//     if (this.isFirst[index]) {
+//       axios.get(`${Config.API_VERSION}/jstack/callstack_black_white`, {params: {component: component}})
+//         .then(res => {
+//           const responseData = res.data.data as BlackWhiteResponse;
+//           if (res.data.head.resultCode === Config.RES_SUCCESS) {
+//             this.setState({listRes: responseData.blackWhiteList, visible: true});
+//             this.listResults[index] = responseData.blackWhiteList;
+//           } else {
+//             notification.error({message: 'ERROR', description: 'Jstack analysis failed!', duration: 3});
+//           }
+//         });
+//     } else {
+//       this.setState({listRes: this.listResults[index], visible: true});
+//     }
+//
+//   }
+//
+//   handleOk = () => {
+//     let newResponse = this.updateCallstackLevel(this.state.fileInfo) as AnalyzeResponse;
+//     this.setState({fileInfo: newResponse.fileInfo, visible: false});
+//     this.isFirst[this.currentIndex] = false;
+//   }
+//
+//   handleReset = () => {
+//     let component = this.state.components[this.currentIndex];
+//     axios.get(`${Config.API_VERSION}/jstack/callstack_black_white`, {params: {component: component}})
+//       .then(res => {
+//         const responseData = res.data.data as BlackWhiteResponse;
+//         if (res.data.head.resultCode === Config.RES_SUCCESS) {
+//           this.setState({listRes: responseData.blackWhiteList});
+//           this.listResults[this.currentIndex] = responseData.blackWhiteList;
+//           let newResponse = this.updateCallstackLevel(this.state.fileInfo) as AnalyzeResponse;
+//           this.setState({fileInfo: newResponse.fileInfo, visible: false});
+//         } else {
+//           notification.error({message: 'ERROR', description: 'Jstack analysis failed!', duration: 3});
+//         }
+//       });
+//   }
+//
+//   handleCancel = () => {
+//     this.setState({visible: false});
+//   }
+//
+//   showModal1 = () => {
+//     if (this.threadGroupFirst) {
+//       axios.get(`${Config.API_VERSION}/jstack/threadGroup_black_white`)
+//         .then(res => {
+//           const responseData = res.data.data as BlackWhiteResponse;
+//           if (res.data.head.resultCode === Config.RES_SUCCESS) {
+//             this.setState({listRes: responseData.blackWhiteList, visible1: true});
+//             this.threadGroupRes = responseData.blackWhiteList;
+//           } else {
+//             notification.error({message: 'ERROR', description: 'Jstack analysis failed!', duration: 3});
+//           }
+//         });
+//     } else {
+//       this.setState({listRes: this.threadGroupRes, visible1: true});
+//     }
+//
+//   }
+//
+//   handleOk1 = () => {
+//     let newResponse = this.updateThreadGroupLevel(this.state.fileInfo) as AnalyzeResponse;
+//     this.setState({fileInfo: newResponse.fileInfo, visible1: false});
+//     this.threadGroupFirst = false;
+//   }
+//
+//   handleReset1 = () => {
+//     axios.get(`${Config.API_VERSION}/jstack/threadGroup_black_white`)
+//       .then(res => {
+//         const responseData = res.data.data as BlackWhiteResponse;
+//         if (res.data.head.resultCode === Config.RES_SUCCESS) {
+//           this.setState({listRes: responseData.blackWhiteList, visible1: false});
+//           this.threadGroupRes = responseData.blackWhiteList;
+//           let newResponse = this.updateThreadGroupLevel(this.state.fileInfo) as AnalyzeResponse;
+//           this.setState({fileInfo: newResponse.fileInfo, visible1: false});
+//         } else {
+//           notification.error({message: 'ERROR', description: 'Jstack analysis failed!', duration: 3});
+//         }
+//       });
+//   }
+//
+//   handleCancel1 = () => {
+//     this.setState({visible1: false});
+//   }
+//
+//   save = (blackWhiteList) => {
+//     if (blackWhiteList) {
+//       this.setState({listRes: blackWhiteList});
+//     }
+//   }
+//
+//   handleMenuClick = ({key}) => {
+//     if (key === '1') {
+//       this.showModal1();
+//     } else {
+//       this.showModal(this.state.components[key - 2]);
+//     }
+//
+//   }
+//
+//   constructor(props: any) {
+//     super(props);
+//     // const response = props.location.state.response as JstackResponse;
+//     const stored = window.sessionStorage.getItem(`jstack/history_dashboard-${props.location.key}`);
+//     const storedData = stored ? JSON.parse(stored) : null;
+//     const initList: BlackWhiteList = {
+//       whiteList: [],
+//       blackList: [],
+//     };
+//
+//     this.state = {
+//       fileInfo: Store.getState().fileInfo,
+//       tab: stored ? storedData.tab : '1',
+//       visible: false,
+//       visible1: false,
+//       listRes: initList,
+//       components: Store.getState().components,
+//       index: 0,
+//       comp: 'inceptor',
+//       allHistory: Store.getState().allHistory,
+//     };
+//     this.initIsFirst();
+//   }
+//
+//   componentWillUnmount() {
+//     const data = {
+//       tab: this.state.tab,
+//     };
+//     window.sessionStorage.setItem(`jstack/history_dashboard-${this.props.location.key}`, JSON.stringify(data));
+//   }
+//
+//   render() {
+//     const menu = (
+//       <Menu onClick={this.handleMenuClick}>
+//         <Menu.SubMenu title="Stack Trace">
+//           {this.state.components.map((value, index) => {
+//               return <Menu.Item key={`${index + 2}`}>{value}</Menu.Item>;
+//             }
+//           )}
+//         </Menu.SubMenu>
+//         <Menu.Item key="1">Thread Group </Menu.Item>
+//       </Menu>
+//     );
+//
+//     return (
+//       <div>
+//         <Modal
+//           title={'Component: ' + this.state.components[this.currentIndex]}
+//           visible={this.state.visible}
+//           destroyOnClose={true}
+//           onOk={this.handleOk}
+//           onCancel={this.handleCancel}
+//           width={'70%'}
+//           centered={true}
+//           maskClosable={false}
+//           footer={[
+//             <Button key="reset" onClick={this.handleReset}>Reset</Button>,
+//             <Button key="submit" type="primary" onClick={this.handleOk}>
+//               Submit
+//             </Button>,
+//           ]}
+//         >
+//           <ListConf listRes={this.state.listRes} locationKey={this.props.locationKey} onChange={this.save}/>
+//         </Modal>
+//
+//         <Modal
+//           title="Thread Group"
+//           visible={this.state.visible1}
+//           destroyOnClose={true}
+//           onOk={this.handleOk1}
+//           onCancel={this.handleCancel1}
+//           width={'70%'}
+//           centered={true}
+//           maskClosable={false}
+//           footer={[
+//             <Button key="reset" onClick={this.handleReset1}>Reset</Button>,
+//             <Button key="submit" type="primary" onClick={this.handleOk1}>
+//               Submit
+//             </Button>,
+//           ]}
+//         >
+//           <ListConf listRes={this.state.listRes} locationKey={this.props.locationKey} onChange={this.save}/>
+//         </Modal>
+//
+//         <h2 style={{marginBottom: '20px', fontWeight: 'bold'}}>Jstack 分析
+//           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+//           <Dropdown overlay={menu}>
+//             <a style={{color: 'black', fontSize: '16px', fontWeight: 'normal'}}> 配置黑白名单 <Icon type="down"/></a>
+//           </Dropdown>
+//         </h2>
+//         <div>
+//           <HistoryFileDashboard
+//             fileInfo={this.state.fileInfo}
+//             allHistory={this.state.allHistory}
+//             history={this.props.history}
+//             locationKey={this.props.location.key}
+//           />
+//         </div>
+//
+//       </div>
+//     );
+//   }
+// }

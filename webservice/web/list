@@ -1,0 +1,1233 @@
+mines@0.1.0 /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web
+├─┬ @types/antd@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_antd@1.0.0@@types/antd
+│ └─┬ antd@3.3.0
+│   ├── array-tree-filter@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-tree-filter@2.1.0@array-tree-filter
+│   ├─┬ babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── core-js@2.5.3
+│   │ └── regenerator-runtime@0.11.1
+│   ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   ├─┬ create-react-class@15.6.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_create-react-class@15.6.3@create-react-class
+│   │ ├─┬ fbjs@0.8.16 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_fbjs@0.8.16@fbjs
+│   │ │ ├── core-js@1.2.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_core-js@1.2.7@core-js
+│   │ │ ├─┬ isomorphic-fetch@2.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_isomorphic-fetch@2.2.1@isomorphic-fetch
+│   │ │ │ ├─┬ node-fetch@1.7.3
+│   │ │ │ │ ├─┬ encoding@0.1.12
+│   │ │ │ │ │ └── iconv-lite@0.4.19
+│   │ │ │ │ └── is-stream@1.1.0
+│   │ │ │ └── whatwg-fetch@2.0.3
+│   │ │ ├── loose-envify@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loose-envify@1.3.1@loose-envify
+│   │ │ ├── object-assign@4.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object-assign@4.1.1@object-assign
+│   │ │ ├─┬ promise@7.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_promise@7.3.1@promise
+│   │ │ │ └── asap@2.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_asap@2.0.6@asap
+│   │ │ ├── setimmediate@1.0.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_setimmediate@1.0.5@setimmediate
+│   │ │ └── ua-parser-js@0.7.17 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ua-parser-js@0.7.17@ua-parser-js
+│   │ ├─┬ loose-envify@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loose-envify@1.3.1@loose-envify
+│   │ │ └── js-tokens@3.0.2
+│   │ └── object-assign@4.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object-assign@4.1.1@object-assign
+│   ├─┬ css-animation@1.4.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_css-animation@1.4.1@css-animation
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ └─┬ component-classes@1.2.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_component-classes@1.2.6@component-classes
+│   │   └── component-indexof@0.0.3
+│   ├─┬ dom-closest@0.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-closest@0.2.0@dom-closest
+│   │ └── dom-matches@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-matches@2.0.0@dom-matches
+│   ├── enquire.js@2.1.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_enquire.js@2.1.6@enquire.js
+│   ├── lodash@4.17.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash@4.17.5@lodash
+│   ├── moment@2.21.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_moment@2.21.0@moment
+│   ├─┬ omit.js@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_omit.js@1.0.0@omit.js
+│   │ └── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   ├─┬ prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ ├── fbjs@0.8.16 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_fbjs@0.8.16@fbjs
+│   │ ├── loose-envify@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loose-envify@1.3.1@loose-envify
+│   │ └── object-assign@4.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object-assign@4.1.1@object-assign
+│   ├─┬ rc-animate@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-animate@2.4.4@rc-animate
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── css-animation@1.4.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_css-animation@1.4.1@css-animation
+│   │ └── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   ├─┬ rc-calendar@9.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-calendar@9.6.0@rc-calendar
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── create-react-class@15.6.3
+│   │ ├── moment@2.21.0
+│   │ ├── prop-types@15.6.1
+│   │ ├─┬ rc-trigger@2.3.4
+│   │ │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ │ ├─┬ rc-align@2.3.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-align@2.3.6@rc-align
+│   │ │ │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ │ │ ├── dom-align@1.6.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-align@1.6.7@dom-align
+│   │ │ │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ │ │ ├── rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   │ │ │ └── shallowequal@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_shallowequal@1.0.2@shallowequal
+│   │ │ ├── rc-animate@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-animate@2.4.4@rc-animate
+│   │ │ └── rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   │ └── rc-util@4.4.0
+│   ├─┬ rc-cascader@0.12.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-cascader@0.12.2@rc-cascader
+│   │ ├── array-tree-filter@1.0.1
+│   │ ├── prop-types@15.6.1
+│   │ ├── rc-trigger@2.3.4
+│   │ ├── rc-util@4.4.0
+│   │ └── shallow-equal@1.0.0
+│   ├─┬ rc-checkbox@2.1.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-checkbox@2.1.5@rc-checkbox
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ └── rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   ├─┬ rc-collapse@1.8.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-collapse@1.8.0@rc-collapse
+│   │ ├── classnames@2.2.5
+│   │ ├── css-animation@1.4.1
+│   │ ├── prop-types@15.6.1
+│   │ └── rc-animate@2.4.4
+│   ├─┬ rc-dialog@7.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-dialog@7.1.3@rc-dialog
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── rc-animate@2.4.4
+│   │ └── rc-util@4.4.0
+│   ├─┬ rc-dropdown@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-dropdown@2.1.1@rc-dropdown
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── prop-types@15.6.1
+│   │ └── rc-trigger@2.3.4
+│   ├─┬ rc-editor-mention@1.1.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-editor-mention@1.1.6@rc-editor-mention
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── dom-scroll-into-view@1.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-scroll-into-view@1.2.1@dom-scroll-into-view
+│   │ ├─┬ draft-js@0.10.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_draft-js@0.10.5@draft-js
+│   │ │ ├── fbjs@0.8.16
+│   │ │ ├── immutable@3.7.6
+│   │ │ └── object-assign@4.1.1
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ ├── rc-animate@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-animate@2.4.4@rc-animate
+│   │ └─┬ rc-editor-core@0.8.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-editor-core@0.8.6@rc-editor-core
+│   │   ├── babel-runtime@6.26.0
+│   │   ├── classnames@2.2.5
+│   │   ├── draft-js@0.10.5
+│   │   ├── immutable@3.8.2
+│   │   ├── lodash@4.17.5
+│   │   ├── prop-types@15.6.1
+│   │   └── setimmediate@1.0.5
+│   ├─┬ rc-form@2.1.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-form@2.1.7@rc-form
+│   │ ├─┬ async-validator@1.8.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_async-validator@1.8.2@async-validator
+│   │ │ └── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── create-react-class@15.6.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_create-react-class@15.6.3@create-react-class
+│   │ ├── dom-scroll-into-view@1.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-scroll-into-view@1.2.1@dom-scroll-into-view
+│   │ ├── hoist-non-react-statics@2.5.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hoist-non-react-statics@2.5.0@hoist-non-react-statics
+│   │ ├── lodash@4.17.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash@4.17.5@lodash
+│   │ └── warning@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_warning@3.0.0@warning
+│   ├─┬ rc-input-number@4.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-input-number@4.0.2@rc-input-number
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── prop-types@15.6.1
+│   │ └─┬ rmc-feedback@1.0.4
+│   │   ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │   └── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   ├─┬ rc-menu@6.2.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-menu@6.2.6@rc-menu
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── create-react-class@15.6.3
+│   │ ├── dom-scroll-into-view@1.2.1
+│   │ ├── prop-types@15.6.1
+│   │ ├── rc-animate@2.4.4
+│   │ ├── rc-trigger@2.3.4
+│   │ └── rc-util@4.4.0
+│   ├─┬ rc-notification@3.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-notification@3.0.1@rc-notification
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ ├── rc-animate@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-animate@2.4.4@rc-animate
+│   │ └── rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   ├─┬ rc-pagination@1.15.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-pagination@1.15.1@rc-pagination
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ └── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   ├─┬ rc-progress@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-progress@2.2.5@rc-progress
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ └── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   ├─┬ rc-rate@2.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-rate@2.4.0@rc-rate
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ └── rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   ├─┬ rc-select@7.7.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-select@7.7.5@rc-select
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── component-classes@1.2.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_component-classes@1.2.6@component-classes
+│   │ ├── dom-scroll-into-view@1.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-scroll-into-view@1.2.1@dom-scroll-into-view
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ ├── rc-animate@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-animate@2.4.4@rc-animate
+│   │ ├── rc-menu@6.2.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-menu@6.2.6@rc-menu
+│   │ ├── rc-trigger@2.3.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-trigger@2.3.4@rc-trigger
+│   │ ├── rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   │ └── warning@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_warning@3.0.0@warning
+│   ├─┬ rc-slider@8.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-slider@8.6.1@rc-slider
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── prop-types@15.6.1
+│   │ ├── rc-tooltip@3.7.0
+│   │ ├── rc-util@4.4.0
+│   │ ├── shallowequal@1.0.2
+│   │ └── warning@3.0.0
+│   ├─┬ rc-steps@3.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-steps@3.1.0@rc-steps
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── lodash.debounce@4.0.8
+│   │ └── prop-types@15.6.1
+│   ├─┬ rc-switch@1.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-switch@1.6.0@rc-switch
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ └── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   ├─┬ rc-table@6.1.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-table@6.1.7@rc-table
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── component-classes@1.2.6
+│   │ ├── lodash@4.17.5
+│   │ ├─┬ mini-store@1.0.4
+│   │ │ ├── hoist-non-react-statics@2.5.0
+│   │ │ ├── prop-types@15.6.1
+│   │ │ └── shallowequal@1.0.2
+│   │ ├── prop-types@15.6.1
+│   │ ├── rc-util@4.4.0
+│   │ ├── shallowequal@1.0.2
+│   │ └── warning@3.0.0
+│   ├─┬ rc-tabs@9.2.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-tabs@9.2.4@rc-tabs
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── create-react-class@15.6.3
+│   │ ├── lodash@4.17.5
+│   │ ├── prop-types@15.6.1
+│   │ ├─┬ rc-hammerjs@0.6.9
+│   │ │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ │ ├── hammerjs@2.0.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hammerjs@2.0.8@hammerjs
+│   │ │ └── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ ├── rc-util@4.4.0
+│   │ └── warning@3.0.0
+│   ├─┬ rc-time-picker@3.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-time-picker@3.3.1@rc-time-picker
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── moment@2.21.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_moment@2.21.0@moment
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ └── rc-trigger@2.3.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-trigger@2.3.4@rc-trigger
+│   ├─┬ rc-tooltip@3.7.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-tooltip@3.7.0@rc-tooltip
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── prop-types@15.6.1
+│   │ └── rc-trigger@2.3.4
+│   ├─┬ rc-tree@1.7.11 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-tree@1.7.11@rc-tree
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── prop-types@15.6.1
+│   │ ├── rc-animate@2.4.4
+│   │ ├── rc-util@4.4.0
+│   │ └── warning@3.0.0
+│   ├─┬ rc-tree-select@1.12.9 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-tree-select@1.12.9@rc-tree-select
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── classnames@2.2.5
+│   │ ├── object-assign@4.1.1
+│   │ ├── prop-types@15.6.1
+│   │ ├── rc-animate@2.4.4
+│   │ ├── rc-tree@1.7.11
+│   │ ├── rc-trigger@2.3.4
+│   │ └── rc-util@4.4.0
+│   ├─┬ rc-upload@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-upload@2.4.4@rc-upload
+│   │ ├── babel-runtime@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-runtime@6.26.0@babel-runtime
+│   │ ├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames
+│   │ ├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   │ └─┬ warning@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_warning@2.1.0@warning
+│   │   └── loose-envify@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loose-envify@1.3.1@loose-envify
+│   ├─┬ rc-util@4.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-util@4.4.0@rc-util
+│   │ ├─┬ add-dom-event-listener@1.0.2
+│   │ │ └── object-assign@4.1.1
+│   │ ├── babel-runtime@6.26.0
+│   │ ├── prop-types@15.6.1
+│   │ └─┬ shallowequal@0.2.2
+│   │   └─┬ lodash.keys@3.1.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.keys@3.1.2@lodash.keys
+│   │     ├── lodash._getnative@3.9.1
+│   │     ├── lodash.isarguments@3.1.0
+│   │     └── lodash.isarray@3.0.4
+│   ├─┬ react-lazy-load@3.0.13 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-lazy-load@3.0.13@react-lazy-load
+│   │ ├── eventlistener@0.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_eventlistener@0.0.1@eventlistener
+│   │ ├── lodash.debounce@4.0.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.debounce@4.0.8@lodash.debounce
+│   │ ├── lodash.throttle@4.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.throttle@4.1.1@lodash.throttle
+│   │ └── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types
+│   ├─┬ react-slick@0.20.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-slick@0.20.0@react-slick
+│   │ ├── can-use-dom@0.1.0
+│   │ ├── classnames@2.2.5
+│   │ ├── create-react-class@15.6.3
+│   │ ├── enquire.js@2.1.6
+│   │ ├─┬ json2mq@0.2.0
+│   │ │ └── string-convert@0.2.1
+│   │ └── object-assign@4.1.1
+│   ├── shallowequal@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_shallowequal@1.0.2@shallowequal
+│   └─┬ warning@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_warning@3.0.0@warning
+│     └── loose-envify@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loose-envify@1.3.1@loose-envify
+├─┬ @types/axios@0.14.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_axios@0.14.0@@types/axios
+│ └─┬ axios@0.18.0
+│   ├─┬ follow-redirects@1.4.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_follow-redirects@1.4.1@follow-redirects
+│   │ └─┬ debug@3.1.0
+│   │   └── ms@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ms@2.0.0@ms
+│   └── is-buffer@1.1.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-buffer@1.1.6@is-buffer
+├── @types/history@4.6.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_history@4.6.2@@types/history extraneous
+├── @types/jest@22.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_jest@22.2.0@@types/jest
+├── @types/node@9.4.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_node@9.4.7@@types/node
+├── @types/react@16.0.40 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react@16.0.40@@types/react
+├─┬ @types/react-dom@16.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react-dom@16.0.4@@types/react-dom
+│ ├── @types/node@9.4.7
+│ └── @types/react@16.0.40
+├── @types/react-router@4.0.22 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react-router@4.0.22@@types/react-router extraneous
+├─┬ @types/react-router-dom@4.2.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react-router-dom@4.2.4@@types/react-router-dom
+│ ├── @types/history@4.6.2
+│ ├── @types/react@16.0.40
+│ └─┬ @types/react-router@4.0.22
+│   ├── @types/history@4.6.2
+│   └── @types/react@16.0.40
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_antd@1.0.0@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_axios@0.14.0@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_history@4.6.2@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_jest@22.2.0@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_node@9.4.7@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react-dom@16.0.4@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react-router-dom@4.2.4@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react-router@4.0.22@@types/package.json
+├──  extraneous error: ENOENT: no such file or directory, open '/Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_@types_react@16.0.40@@types/package.json
+├── abab@1.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_abab@1.0.4@abab extraneous
+├── accepts@1.3.5 extraneous
+├── acorn@4.0.13 extraneous
+├── acorn-dynamic-import@2.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_acorn-dynamic-import@2.0.2@acorn-dynamic-import extraneous
+├── acorn-globals@3.1.0 extraneous
+├── add-dom-event-listener@1.0.2 extraneous
+├── address@1.0.3 extraneous
+├── ajv@5.5.2 extraneous
+├── ajv-keywords@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ajv-keywords@2.1.1@ajv-keywords extraneous
+├── align-text@0.1.4 extraneous
+├── alphanum-sort@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_alphanum-sort@1.0.2@alphanum-sort extraneous
+├── amdefine@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_amdefine@1.0.1@amdefine extraneous
+├── ansi-align@2.0.0 extraneous
+├── ansi-escapes@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ansi-escapes@3.0.0@ansi-escapes extraneous
+├── ansi-html@0.0.7 extraneous
+├── ansi-regex@2.1.1 extraneous
+├── ansi-styles@3.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ansi-styles@3.2.1@ansi-styles extraneous
+├── antd@3.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_antd@3.3.0@antd extraneous
+├── anymatch@2.0.0 extraneous
+├── append-transform@0.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_append-transform@0.4.0@append-transform extraneous
+├── argparse@1.0.10 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_argparse@1.0.10@argparse extraneous
+├── arr-diff@4.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_arr-diff@4.0.0@arr-diff extraneous
+├── arr-flatten@1.1.0 extraneous
+├── arr-union@3.1.0 extraneous
+├── array-equal@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-equal@1.0.0@array-equal extraneous
+├── array-filter@0.0.1 extraneous
+├── array-find-index@1.0.2 extraneous
+├── array-flatten@2.1.1 extraneous
+├── array-includes@3.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-includes@3.0.3@array-includes extraneous
+├── array-map@0.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-map@0.0.0@array-map extraneous
+├── array-reduce@0.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-reduce@0.0.0@array-reduce extraneous
+├── array-tree-filter@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-tree-filter@2.1.0@array-tree-filter extraneous
+├── array-union@1.0.2 extraneous
+├── array-uniq@1.0.3 extraneous
+├── array-unique@0.3.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_array-unique@0.3.2@array-unique extraneous
+├── arrify@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_arrify@1.0.1@arrify extraneous
+├── asap@2.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_asap@2.0.6@asap extraneous
+├── asn1@0.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_asn1@0.2.3@asn1 extraneous
+├── asn1.js@4.10.1 extraneous
+├── assert@1.4.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_assert@1.4.1@assert extraneous
+├── assert-plus@1.0.0 extraneous
+├── assign-symbols@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_assign-symbols@1.0.0@assign-symbols extraneous
+├── async@1.5.2 extraneous
+├── async-each@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_async-each@1.0.1@async-each extraneous
+├── async-validator@1.8.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_async-validator@1.8.2@async-validator extraneous
+├── asynckit@0.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_asynckit@0.4.0@asynckit extraneous
+├── atob@2.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_atob@2.0.3@atob extraneous
+├── autoprefixer@7.1.6 extraneous
+├── aws-sign2@0.7.0 extraneous
+├── aws4@1.6.0 extraneous
+├── axios@0.17.1 extraneous
+├── babel-code-frame@6.26.0 extraneous
+├── babel-core@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-core@6.26.0@babel-core extraneous
+├── babel-generator@6.26.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-generator@6.26.1@babel-generator extraneous
+├── babel-helpers@6.24.1 extraneous
+├── babel-jest@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-jest@20.0.3@babel-jest extraneous
+├── babel-messages@6.23.0 extraneous
+├── babel-plugin-istanbul@4.1.5 extraneous
+├── babel-plugin-jest-hoist@20.0.3 extraneous
+├── babel-plugin-transform-es2015-modules-commonjs@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-plugin-transform-es2015-modules-commonjs@6.26.0@babel-plugin-transform-es2015-modules-commonjs extraneous
+├── babel-plugin-transform-strict-mode@6.24.1 extraneous
+├── babel-preset-jest@20.0.3 extraneous
+├── babel-register@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-register@6.26.0@babel-register extraneous
+├── babel-runtime@6.26.0 extraneous
+├── babel-template@6.26.0 extraneous
+├── babel-traverse@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-traverse@6.26.0@babel-traverse extraneous
+├── babel-types@6.26.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babel-types@6.26.0@babel-types extraneous
+├── babylon@6.18.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_babylon@6.18.0@babylon extraneous
+├── balanced-match@1.0.0 extraneous
+├── base@0.11.2 extraneous
+├── base64-js@1.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_base64-js@1.2.3@base64-js extraneous
+├── batch@0.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_batch@0.6.1@batch extraneous
+├── bcrypt-pbkdf@1.0.1 extraneous
+├── big.js@3.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_big.js@3.2.0@big.js extraneous
+├── binary-extensions@1.11.0 extraneous
+├── bluebird@3.5.1 extraneous
+├── bn.js@4.11.8 extraneous
+├── body-parser@1.18.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_body-parser@1.18.2@body-parser extraneous
+├── bonjour@3.5.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_bonjour@3.5.0@bonjour extraneous
+├── boolbase@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_boolbase@1.0.0@boolbase extraneous
+├── boom@5.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_boom@5.2.0@boom extraneous
+├── boxen@1.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_boxen@1.3.0@boxen extraneous
+├── brace-expansion@1.1.11 extraneous
+├── braces@2.3.1 extraneous
+├── brorand@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_brorand@1.1.0@brorand extraneous
+├── browser-resolve@1.11.2 extraneous
+├── browserify-aes@1.1.1 extraneous
+├── browserify-cipher@1.0.0 extraneous
+├── browserify-des@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_browserify-des@1.0.0@browserify-des extraneous
+├── browserify-rsa@4.0.1 extraneous
+├── browserify-sign@4.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_browserify-sign@4.0.4@browserify-sign extraneous
+├── browserify-zlib@0.2.0 extraneous
+├── browserslist@2.11.3 extraneous
+├── bser@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_bser@2.0.0@bser extraneous
+├── buffer@4.9.1 extraneous
+├── buffer-indexof@1.1.1 extraneous
+├── buffer-xor@1.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_buffer-xor@1.0.3@buffer-xor extraneous
+├── builtin-modules@1.1.1 extraneous
+├── builtin-status-codes@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_builtin-status-codes@3.0.0@builtin-status-codes extraneous
+├── bytes@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_bytes@3.0.0@bytes extraneous
+├── cache-base@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_cache-base@1.0.1@cache-base extraneous
+├── callsites@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_callsites@2.0.0@callsites extraneous
+├── camel-case@3.0.0 extraneous
+├── camelcase@1.2.1 extraneous
+├── camelcase-keys@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_camelcase-keys@2.1.0@camelcase-keys extraneous
+├── can-use-dom@0.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_can-use-dom@0.1.0@can-use-dom extraneous
+├── caniuse-api@1.6.1 extraneous
+├── caniuse-db@1.0.30000814 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_caniuse-db@1.0.30000814@caniuse-db extraneous
+├── caniuse-lite@1.0.30000814 extraneous
+├── capture-stack-trace@1.0.0 extraneous
+├── case-sensitive-paths-webpack-plugin@2.1.1 extraneous
+├── caseless@0.12.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_caseless@0.12.0@caseless extraneous
+├── center-align@0.1.3 extraneous
+├── chain-function@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_chain-function@1.0.0@chain-function extraneous
+├── chalk@2.3.2 extraneous
+├── chardet@0.4.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_chardet@0.4.2@chardet extraneous
+├── chokidar@1.7.0 extraneous
+├── ci-info@1.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ci-info@1.1.3@ci-info extraneous
+├── cipher-base@1.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_cipher-base@1.0.4@cipher-base extraneous
+├── clap@1.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_clap@1.2.3@clap extraneous
+├── class-utils@0.3.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_class-utils@0.3.6@class-utils extraneous
+├── classnames@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_classnames@2.2.5@classnames extraneous
+├── clean-css@4.1.11 extraneous
+├── cli-boxes@1.0.0 extraneous
+├── cli-cursor@2.1.0 extraneous
+├── cli-width@2.2.0 extraneous
+├── cliui@3.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_cliui@3.2.0@cliui extraneous
+├── clone@1.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_clone@1.0.3@clone extraneous
+├── co@4.6.0 extraneous
+├── coa@1.0.4 extraneous
+├── code-point-at@1.1.0 extraneous
+├── collection-visit@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_collection-visit@1.0.0@collection-visit extraneous
+├── color@0.11.4 extraneous
+├── color-convert@1.9.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_color-convert@1.9.1@color-convert extraneous
+├── color-name@1.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_color-name@1.1.3@color-name extraneous
+├── color-string@0.3.0 extraneous
+├── colormin@1.1.2 extraneous
+├── colors@1.1.2 extraneous
+├── combined-stream@1.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_combined-stream@1.0.6@combined-stream extraneous
+├── commander@2.14.1 extraneous
+├── compare-versions@3.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_compare-versions@3.1.0@compare-versions extraneous
+├── component-classes@1.2.6 extraneous
+├── component-emitter@1.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_component-emitter@1.2.1@component-emitter extraneous
+├── component-indexof@0.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_component-indexof@0.0.3@component-indexof extraneous
+├── compressible@2.0.13 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_compressible@2.0.13@compressible extraneous
+├── compression@1.7.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_compression@1.7.2@compression extraneous
+├── concat-map@0.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_concat-map@0.0.1@concat-map extraneous
+├── configstore@3.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_configstore@3.1.1@configstore extraneous
+├── connect-history-api-fallback@1.5.0 extraneous
+├── console-browserify@1.1.0 extraneous
+├── constants-browserify@1.0.0 extraneous
+├── content-disposition@0.5.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_content-disposition@0.5.2@content-disposition extraneous
+├── content-type@1.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_content-type@1.0.4@content-type extraneous
+├── content-type-parser@1.0.2 extraneous
+├── convert-source-map@1.5.1 extraneous
+├── cookie@0.3.1 extraneous
+├── cookie-signature@1.0.6 extraneous
+├── copy-descriptor@0.1.1 extraneous
+├── core-js@1.2.7 extraneous
+├── core-util-is@1.0.2 extraneous
+├── cosmiconfig@2.2.2 extraneous
+├── create-ecdh@4.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_create-ecdh@4.0.0@create-ecdh extraneous
+├── create-error-class@3.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_create-error-class@3.0.2@create-error-class extraneous
+├── create-hash@1.1.3 extraneous
+├── create-hmac@1.1.6 extraneous
+├── create-react-class@15.6.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_create-react-class@15.6.3@create-react-class extraneous
+├── cross-spawn@5.1.0 extraneous
+├── cryptiles@3.1.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_cryptiles@3.1.2@cryptiles extraneous
+├── crypto-browserify@3.12.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_crypto-browserify@3.12.0@crypto-browserify extraneous
+├── crypto-random-string@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_crypto-random-string@1.0.0@crypto-random-string extraneous
+├── css-animation@1.4.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_css-animation@1.4.1@css-animation extraneous
+├── css-color-names@0.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_css-color-names@0.0.4@css-color-names extraneous
+├── css-loader@0.28.7 extraneous
+├── css-select@1.2.0 extraneous
+├── css-selector-tokenizer@0.7.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_css-selector-tokenizer@0.7.0@css-selector-tokenizer extraneous
+├── css-what@2.1.0 extraneous
+├── cssesc@0.1.0 extraneous
+├── cssnano@3.10.0 extraneous
+├── csso@2.3.2 extraneous
+├── cssom@0.3.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_cssom@0.3.2@cssom extraneous
+├── cssstyle@0.2.37 extraneous
+├── currently-unhandled@0.4.1 extraneous
+├── d@1.0.0 extraneous
+├── dashdash@1.14.1 extraneous
+├── date-now@0.1.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_date-now@0.1.4@date-now extraneous
+├── debug@3.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_debug@3.1.0@debug extraneous
+├── decamelize@1.2.0 extraneous
+├── decode-uri-component@0.2.0 extraneous
+├── deep-equal@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_deep-equal@1.0.1@deep-equal extraneous
+├── deep-extend@0.4.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_deep-extend@0.4.2@deep-extend extraneous
+├── deep-is@0.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_deep-is@0.1.3@deep-is extraneous
+├── deepmerge@2.1.0 extraneous
+├── default-require-extensions@1.0.0 extraneous
+├── define-properties@1.1.2 extraneous
+├── define-property@2.0.2 extraneous
+├── defined@1.0.0 extraneous
+├── del@2.2.2 extraneous
+├── delayed-stream@1.0.0 extraneous
+├── depd@1.1.2 extraneous
+├── des.js@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_des.js@1.0.0@des.js extraneous
+├── destroy@1.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_destroy@1.0.4@destroy extraneous
+├── detect-indent@4.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_detect-indent@4.0.0@detect-indent extraneous
+├── detect-node@2.0.3 extraneous
+├── detect-port-alt@1.1.3 extraneous
+├── diff@3.5.0 extraneous
+├── diffie-hellman@5.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_diffie-hellman@5.0.2@diffie-hellman extraneous
+├── dns-equal@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dns-equal@1.0.0@dns-equal extraneous
+├── dns-packet@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dns-packet@1.3.1@dns-packet extraneous
+├── dns-txt@2.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dns-txt@2.0.2@dns-txt extraneous
+├── dom-align@1.6.7 extraneous
+├── dom-closest@0.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-closest@0.2.0@dom-closest extraneous
+├── dom-converter@0.1.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dom-converter@0.1.4@dom-converter extraneous
+├── dom-helpers@3.3.1 extraneous
+├── dom-matches@2.0.0 extraneous
+├── dom-scroll-into-view@1.2.1 extraneous
+├── dom-serializer@0.1.0 extraneous
+├── dom-urls@1.1.0 extraneous
+├── domain-browser@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_domain-browser@1.2.0@domain-browser extraneous
+├── domelementtype@1.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_domelementtype@1.3.0@domelementtype extraneous
+├── domhandler@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_domhandler@2.1.0@domhandler extraneous
+├── domutils@1.5.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_domutils@1.5.1@domutils extraneous
+├── dot-prop@4.2.0 extraneous
+├── dotenv@4.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_dotenv@4.0.0@dotenv extraneous
+├── draft-js@0.10.5 extraneous
+├── duplexer@0.1.1 extraneous
+├── duplexer3@0.1.4 extraneous
+├── ecc-jsbn@0.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ecc-jsbn@0.1.1@ecc-jsbn extraneous
+├── ee-first@1.1.1 extraneous
+├── electron-to-chromium@1.3.37 extraneous
+├── elliptic@6.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_elliptic@6.4.0@elliptic extraneous
+├── emojis-list@2.1.0 extraneous
+├── encodeurl@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_encodeurl@1.0.2@encodeurl extraneous
+├── encoding@0.1.12 extraneous
+├── enhanced-resolve@3.4.1 extraneous
+├── enquire.js@2.1.6 extraneous
+├── entities@1.1.1 extraneous
+├── errno@0.1.7 extraneous
+├── error-ex@1.3.1 extraneous
+├── es-abstract@1.10.0 extraneous
+├── es-to-primitive@1.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_es-to-primitive@1.1.1@es-to-primitive extraneous
+├── es5-ext@0.10.40 extraneous
+├── es6-iterator@2.0.3 extraneous
+├── es6-map@0.1.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_es6-map@0.1.5@es6-map extraneous
+├── es6-promise@4.2.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_es6-promise@4.2.4@es6-promise extraneous
+├── es6-set@0.1.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_es6-set@0.1.5@es6-set extraneous
+├── es6-symbol@3.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_es6-symbol@3.1.1@es6-symbol extraneous
+├── es6-weak-map@2.0.2 extraneous
+├── escape-html@1.0.3 extraneous
+├── escape-string-regexp@1.0.5 extraneous
+├── escodegen@1.9.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_escodegen@1.9.1@escodegen extraneous
+├── escope@3.6.0 extraneous
+├── esprima@3.1.3 extraneous
+├── esrecurse@4.2.1 extraneous
+├── estraverse@4.2.0 extraneous
+├── esutils@2.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_esutils@2.0.2@esutils extraneous
+├── etag@1.8.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_etag@1.8.1@etag extraneous
+├── event-emitter@0.3.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_event-emitter@0.3.5@event-emitter extraneous
+├── eventemitter3@1.2.0 extraneous
+├── eventlistener@0.0.1 extraneous
+├── events@1.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_events@1.1.1@events extraneous
+├── eventsource@0.1.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_eventsource@0.1.6@eventsource extraneous
+├── evp_bytestokey@1.0.3 extraneous
+├── exec-sh@0.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_exec-sh@0.2.1@exec-sh extraneous
+├── execa@0.7.0 extraneous
+├── expand-brackets@2.1.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_expand-brackets@2.1.4@expand-brackets extraneous
+├── expand-range@1.8.2 extraneous
+├── expand-tilde@2.0.2 extraneous
+├── express@4.16.3 extraneous
+├── extend@3.0.1 extraneous
+├── extend-shallow@2.0.1 extraneous
+├── external-editor@2.1.0 extraneous
+├── extglob@2.0.4 extraneous
+├── extract-text-webpack-plugin@3.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_extract-text-webpack-plugin@3.0.2@extract-text-webpack-plugin extraneous
+├── extsprintf@1.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_extsprintf@1.4.0@extsprintf extraneous
+├── fast-deep-equal@1.1.0 extraneous
+├── fast-json-stable-stringify@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_fast-json-stable-stringify@2.0.0@fast-json-stable-stringify extraneous
+├── fast-levenshtein@2.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_fast-levenshtein@2.0.6@fast-levenshtein extraneous
+├── fastparse@1.1.1 extraneous
+├── faye-websocket@0.11.1 extraneous
+├── fb-watchman@2.0.0 extraneous
+├── fbjs@0.8.16 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_fbjs@0.8.16@fbjs extraneous
+├── figures@2.0.0 extraneous
+├── file-loader@0.11.2 extraneous
+├── filename-regex@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_filename-regex@2.0.1@filename-regex extraneous
+├── fileset@2.0.3 extraneous
+├── filesize@3.5.11 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_filesize@3.5.11@filesize extraneous
+├── fill-range@4.0.0 extraneous
+├── finalhandler@1.1.1 extraneous
+├── find-up@2.1.0 extraneous
+├── flatten@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_flatten@1.0.2@flatten extraneous
+├── follow-redirects@1.4.1 extraneous
+├── for-in@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_for-in@1.0.2@for-in extraneous
+├── for-own@0.1.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_for-own@0.1.5@for-own extraneous
+├── foreach@2.0.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_foreach@2.0.5@foreach extraneous
+├── forever-agent@0.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_forever-agent@0.6.1@forever-agent extraneous
+├── fork-ts-checker-webpack-plugin@0.2.10 extraneous
+├── form-data@2.3.2 extraneous
+├── forwarded@0.1.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_forwarded@0.1.2@forwarded extraneous
+├── fragment-cache@0.2.1 extraneous
+├── fresh@0.5.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_fresh@0.5.2@fresh extraneous
+├── fs-extra@0.30.0 extraneous
+├── fs.realpath@1.0.0 extraneous
+├── fsevents@1.1.2 extraneous
+├── function-bind@1.1.1 extraneous
+├── get-caller-file@1.0.2 extraneous
+├── get-stdin@4.0.1 extraneous
+├── get-stream@3.0.0 extraneous
+├── get-value@2.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_get-value@2.0.6@get-value extraneous
+├── getpass@0.1.7 extraneous
+├── glob@7.1.2 extraneous
+├── glob-base@0.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_glob-base@0.3.0@glob-base extraneous
+├── glob-parent@3.1.0 extraneous
+├── global-dirs@0.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_global-dirs@0.1.1@global-dirs extraneous
+├── global-modules@1.0.0 extraneous
+├── global-prefix@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_global-prefix@1.0.2@global-prefix extraneous
+├── globals@9.18.0 extraneous
+├── globby@6.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_globby@6.1.0@globby extraneous
+├── got@6.7.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_got@6.7.1@got extraneous
+├── graceful-fs@4.1.11 extraneous
+├── growly@1.3.0 extraneous
+├── gzip-size@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_gzip-size@3.0.0@gzip-size extraneous
+├── hammerjs@2.0.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hammerjs@2.0.8@hammerjs extraneous
+├── handle-thing@1.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_handle-thing@1.2.5@handle-thing extraneous
+├── handlebars@4.0.11 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_handlebars@4.0.11@handlebars extraneous
+├── har-schema@2.0.0 extraneous
+├── har-validator@5.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_har-validator@5.0.3@har-validator extraneous
+├── has@1.0.1 extraneous
+├── has-ansi@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_has-ansi@2.0.0@has-ansi extraneous
+├── has-flag@3.0.0 extraneous
+├── has-value@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_has-value@1.0.0@has-value extraneous
+├── has-values@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_has-values@1.0.0@has-values extraneous
+├── hash-base@2.0.2 extraneous
+├── hash.js@1.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hash.js@1.1.3@hash.js extraneous
+├── hawk@6.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hawk@6.0.2@hawk extraneous
+├── he@1.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_he@1.1.1@he extraneous
+├── history@4.7.2 extraneous
+├── hmac-drbg@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hmac-drbg@1.0.1@hmac-drbg extraneous
+├── hoek@4.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hoek@4.2.1@hoek extraneous
+├── hoist-non-react-statics@2.5.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hoist-non-react-statics@2.5.0@hoist-non-react-statics extraneous
+├── home-or-tmp@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_home-or-tmp@2.0.0@home-or-tmp extraneous
+├── homedir-polyfill@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_homedir-polyfill@1.0.1@homedir-polyfill extraneous
+├── hosted-git-info@2.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_hosted-git-info@2.6.0@hosted-git-info extraneous
+├── hpack.js@2.1.6 extraneous
+├── html-comment-regex@1.1.1 extraneous
+├── html-encoding-sniffer@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_html-encoding-sniffer@1.0.2@html-encoding-sniffer extraneous
+├── html-entities@1.2.1 extraneous
+├── html-minifier@3.5.10 extraneous
+├── html-webpack-plugin@2.29.0 extraneous
+├── htmlparser2@3.3.0 extraneous
+├── http-deceiver@1.2.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_http-deceiver@1.2.7@http-deceiver extraneous
+├── http-errors@1.6.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_http-errors@1.6.2@http-errors extraneous
+├── http-parser-js@0.4.11 extraneous
+├── http-proxy@1.16.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_http-proxy@1.16.2@http-proxy extraneous
+├── http-proxy-middleware@0.17.4 extraneous
+├── http-signature@1.2.0 extraneous
+├── https-browserify@1.0.0 extraneous
+├── iconv-lite@0.4.19 extraneous
+├── icss-replace-symbols@1.1.0 extraneous
+├── icss-utils@2.1.0 extraneous
+├── ieee754@1.1.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ieee754@1.1.8@ieee754 extraneous
+├── immutable@3.7.6 extraneous
+├── import-lazy@2.1.0 extraneous
+├── import-local@0.1.1 extraneous
+├── imurmurhash@0.1.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_imurmurhash@0.1.4@imurmurhash extraneous
+├── indent-string@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_indent-string@2.1.0@indent-string extraneous
+├── indexes-of@1.0.1 extraneous
+├── indexof@0.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_indexof@0.0.1@indexof extraneous
+├── inflight@1.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_inflight@1.0.6@inflight extraneous
+├── inherits@2.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_inherits@2.0.3@inherits extraneous
+├── ini@1.3.5 extraneous
+├── inquirer@3.3.0 extraneous
+├── internal-ip@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_internal-ip@1.2.0@internal-ip extraneous
+├── interpret@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_interpret@1.1.0@interpret extraneous
+├── invariant@2.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_invariant@2.2.3@invariant extraneous
+├── invert-kv@1.0.0 extraneous
+├── ip@1.1.5 extraneous
+├── ipaddr.js@1.6.0 extraneous
+├── is-absolute-url@2.1.0 extraneous
+├── is-accessor-descriptor@0.1.6 extraneous
+├── is-arrayish@0.2.1 extraneous
+├── is-binary-path@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-binary-path@1.0.1@is-binary-path extraneous
+├── is-buffer@1.1.6 extraneous
+├── is-builtin-module@1.0.0 extraneous
+├── is-callable@1.1.3 extraneous
+├── is-ci@1.1.0 extraneous
+├── is-data-descriptor@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-data-descriptor@1.0.0@is-data-descriptor extraneous
+├── is-date-object@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-date-object@1.0.1@is-date-object extraneous
+├── is-descriptor@0.1.6 extraneous
+├── is-directory@0.3.1 extraneous
+├── is-dotfile@1.0.3 extraneous
+├── is-equal-shallow@0.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-equal-shallow@0.1.3@is-equal-shallow extraneous
+├── is-extendable@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-extendable@1.0.1@is-extendable extraneous
+├── is-extglob@2.1.1 extraneous
+├── is-finite@1.0.2 extraneous
+├── is-fullwidth-code-point@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-fullwidth-code-point@2.0.0@is-fullwidth-code-point extraneous
+├── is-glob@2.0.1 extraneous
+├── is-installed-globally@0.1.0 extraneous
+├── is-npm@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-npm@1.0.0@is-npm extraneous
+├── is-number@4.0.0 extraneous
+├── is-obj@1.0.1 extraneous
+├── is-odd@2.0.0 extraneous
+├── is-path-cwd@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-path-cwd@1.0.0@is-path-cwd extraneous
+├── is-path-in-cwd@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-path-in-cwd@1.0.0@is-path-in-cwd extraneous
+├── is-path-inside@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-path-inside@1.0.1@is-path-inside extraneous
+├── is-plain-obj@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-plain-obj@1.1.0@is-plain-obj extraneous
+├── is-plain-object@2.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-plain-object@2.0.4@is-plain-object extraneous
+├── is-posix-bracket@0.1.1 extraneous
+├── is-primitive@2.0.0 extraneous
+├── is-promise@2.1.0 extraneous
+├── is-redirect@1.0.0 extraneous
+├── is-regex@1.0.4 extraneous
+├── is-retry-allowed@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-retry-allowed@1.1.0@is-retry-allowed extraneous
+├── is-root@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-root@1.0.0@is-root extraneous
+├── is-stream@1.1.0 extraneous
+├── is-svg@2.1.0 extraneous
+├── is-symbol@1.0.1 extraneous
+├── is-typedarray@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_is-typedarray@1.0.0@is-typedarray extraneous
+├── is-utf8@0.2.1 extraneous
+├── is-windows@1.0.2 extraneous
+├── is-wsl@1.1.0 extraneous
+├── isarray@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_isarray@1.0.0@isarray extraneous
+├── isexe@2.0.0 extraneous
+├── isobject@2.1.0 extraneous
+├── isomorphic-fetch@2.2.1 extraneous
+├── isstream@0.1.2 extraneous
+├── istanbul-api@1.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_istanbul-api@1.3.1@istanbul-api extraneous
+├── istanbul-lib-coverage@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_istanbul-lib-coverage@1.2.0@istanbul-lib-coverage extraneous
+├── istanbul-lib-hook@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_istanbul-lib-hook@1.2.0@istanbul-lib-hook extraneous
+├── istanbul-lib-instrument@1.10.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_istanbul-lib-instrument@1.10.1@istanbul-lib-instrument extraneous
+├── istanbul-lib-report@1.1.4 extraneous
+├── istanbul-lib-source-maps@1.2.4 extraneous
+├── istanbul-reports@1.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_istanbul-reports@1.3.0@istanbul-reports extraneous
+├── jest@20.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest@20.0.4@jest extraneous
+├── jest-changed-files@20.0.3 extraneous
+├── jest-cli@20.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-cli@20.0.4@jest-cli extraneous
+├── jest-config@20.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-config@20.0.4@jest-config extraneous
+├── jest-diff@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-diff@20.0.3@jest-diff extraneous
+├── jest-docblock@20.0.3 extraneous
+├── jest-environment-jsdom@20.0.3 extraneous
+├── jest-environment-node@20.0.3 extraneous
+├── jest-haste-map@20.0.5 extraneous
+├── jest-jasmine2@20.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-jasmine2@20.0.4@jest-jasmine2 extraneous
+├── jest-matcher-utils@20.0.3 extraneous
+├── jest-matchers@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-matchers@20.0.3@jest-matchers extraneous
+├── jest-message-util@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-message-util@20.0.3@jest-message-util extraneous
+├── jest-mock@20.0.3 extraneous
+├── jest-regex-util@20.0.3 extraneous
+├── jest-resolve@20.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-resolve@20.0.4@jest-resolve extraneous
+├── jest-resolve-dependencies@20.0.3 extraneous
+├── jest-runtime@20.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-runtime@20.0.4@jest-runtime extraneous
+├── jest-snapshot@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-snapshot@20.0.3@jest-snapshot extraneous
+├── jest-util@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jest-util@20.0.3@jest-util extraneous
+├── jest-validate@20.0.3 extraneous
+├── js-base64@2.4.3 extraneous
+├── js-tokens@3.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_js-tokens@3.0.2@js-tokens extraneous
+├── js-yaml@3.7.0 extraneous
+├── jsbn@0.1.1 extraneous
+├── jsdom@9.12.0 extraneous
+├── jsesc@1.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jsesc@1.3.0@jsesc extraneous
+├── json-loader@0.5.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_json-loader@0.5.7@json-loader extraneous
+├── json-schema@0.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_json-schema@0.2.3@json-schema extraneous
+├── json-schema-traverse@0.3.1 extraneous
+├── json-stable-stringify@1.0.1 extraneous
+├── json-stringify-safe@5.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_json-stringify-safe@5.0.1@json-stringify-safe extraneous
+├── json2mq@0.2.0 extraneous
+├── json3@3.3.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_json3@3.3.2@json3 extraneous
+├── json5@0.5.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_json5@0.5.1@json5 extraneous
+├── jsonfile@2.4.0 extraneous
+├── jsonify@0.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jsonify@0.0.0@jsonify extraneous
+├── jsprim@1.4.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_jsprim@1.4.1@jsprim extraneous
+├── killable@1.0.0 extraneous
+├── kind-of@6.0.2 extraneous
+├── klaw@1.3.1 extraneous
+├── latest-version@3.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_latest-version@3.1.0@latest-version extraneous
+├── lazy-cache@1.0.4 extraneous
+├── lcid@1.0.0 extraneous
+├── leven@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_leven@2.1.0@leven extraneous
+├── levn@0.3.0 extraneous
+├── load-json-file@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_load-json-file@2.0.0@load-json-file extraneous
+├── loader-runner@2.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loader-runner@2.3.0@loader-runner extraneous
+├── loader-utils@1.1.0 extraneous
+├── locate-path@2.0.0 extraneous
+├── lodash@4.17.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash@4.17.5@lodash extraneous
+├── lodash._getnative@3.9.1 extraneous
+├── lodash._reinterpolate@3.0.0 extraneous
+├── lodash.camelcase@4.3.0 extraneous
+├── lodash.debounce@4.0.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.debounce@4.0.8@lodash.debounce extraneous
+├── lodash.defaults@4.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.defaults@4.2.0@lodash.defaults extraneous
+├── lodash.endswith@4.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.endswith@4.2.1@lodash.endswith extraneous
+├── lodash.isarguments@3.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.isarguments@3.1.0@lodash.isarguments extraneous
+├── lodash.isarray@3.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.isarray@3.0.4@lodash.isarray extraneous
+├── lodash.isfunction@3.0.9 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.isfunction@3.0.9@lodash.isfunction extraneous
+├── lodash.isobject@3.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.isobject@3.0.2@lodash.isobject extraneous
+├── lodash.isstring@4.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.isstring@4.0.1@lodash.isstring extraneous
+├── lodash.keys@3.1.2 extraneous
+├── lodash.memoize@4.1.2 extraneous
+├── lodash.startswith@4.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.startswith@4.2.1@lodash.startswith extraneous
+├── lodash.template@4.4.0 extraneous
+├── lodash.templatesettings@4.1.0 extraneous
+├── lodash.throttle@4.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.throttle@4.1.1@lodash.throttle extraneous
+├── lodash.tonumber@4.0.3 extraneous
+├── lodash.uniq@4.5.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_lodash.uniq@4.5.0@lodash.uniq extraneous
+├── loglevel@1.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_loglevel@1.6.1@loglevel extraneous
+├── longest@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_longest@1.0.1@longest extraneous
+├── loose-envify@1.3.1 extraneous
+├── loud-rejection@1.6.0 extraneous
+├── lower-case@1.1.4 extraneous
+├── lowercase-keys@1.0.0 extraneous
+├── lru-cache@4.1.2 extraneous
+├── macaddress@0.2.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_macaddress@0.2.8@macaddress extraneous
+├── make-dir@1.2.0 extraneous
+├── makeerror@1.0.11 extraneous
+├── map-cache@0.2.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_map-cache@0.2.2@map-cache extraneous
+├── map-obj@1.0.1 extraneous
+├── map-visit@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_map-visit@1.0.0@map-visit extraneous
+├── math-expression-evaluator@1.2.17 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_math-expression-evaluator@1.2.17@math-expression-evaluator extraneous
+├── md5.js@1.3.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_md5.js@1.3.4@md5.js extraneous
+├── media-typer@0.3.0 extraneous
+├── mem@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_mem@1.1.0@mem extraneous
+├── memory-fs@0.4.1 extraneous
+├── meow@3.7.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_meow@3.7.0@meow extraneous
+├── merge@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_merge@1.2.0@merge extraneous
+├── merge-descriptors@1.0.1 extraneous
+├── methods@1.1.2 extraneous
+├── micromatch@2.3.11 extraneous
+├── miller-rabin@4.0.1 extraneous
+├── mime@1.4.1 extraneous
+├── mime-db@1.33.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_mime-db@1.33.0@mime-db extraneous
+├── mime-types@2.1.18 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_mime-types@2.1.18@mime-types extraneous
+├── mimic-fn@1.2.0 extraneous
+├── mini-store@1.0.4 extraneous
+├── minimalistic-assert@1.0.0 extraneous
+├── minimalistic-crypto-utils@1.0.1 extraneous
+├── minimatch@3.0.3 extraneous
+├── minimist@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_minimist@1.2.0@minimist extraneous
+├── mixin-deep@1.3.1 extraneous
+├── mkdirp@0.5.1 extraneous
+├── moment@2.21.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_moment@2.21.0@moment extraneous
+├── ms@2.0.0 extraneous
+├── multicast-dns@6.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_multicast-dns@6.2.3@multicast-dns extraneous
+├── multicast-dns-service-types@1.1.0 extraneous
+├── mute-stream@0.0.7 extraneous
+├── nan@2.9.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_nan@2.9.2@nan extraneous
+├── nanomatch@1.2.9 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_nanomatch@1.2.9@nanomatch extraneous
+├── natural-compare@1.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_natural-compare@1.4.0@natural-compare extraneous
+├── ncname@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ncname@1.0.0@ncname extraneous
+├── negotiator@0.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_negotiator@0.6.1@negotiator extraneous
+├── neo-async@2.5.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_neo-async@2.5.0@neo-async extraneous
+├── no-case@2.3.2 extraneous
+├── node-fetch@1.7.3 extraneous
+├── node-forge@0.7.1 extraneous
+├── node-int64@0.4.0 extraneous
+├── node-libs-browser@2.1.0 extraneous
+├── node-notifier@5.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_node-notifier@5.2.1@node-notifier extraneous
+├── normalize-package-data@2.4.0 extraneous
+├── normalize-path@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_normalize-path@2.1.1@normalize-path extraneous
+├── normalize-range@0.1.2 extraneous
+├── normalize-url@1.9.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_normalize-url@1.9.1@normalize-url extraneous
+├── npm-run-path@2.0.2 extraneous
+├── nth-check@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_nth-check@1.0.1@nth-check extraneous
+├── num2fraction@1.2.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_num2fraction@1.2.2@num2fraction extraneous
+├── number-is-nan@1.0.1 extraneous
+├── nwmatcher@1.4.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_nwmatcher@1.4.3@nwmatcher extraneous
+├── oauth-sign@0.8.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_oauth-sign@0.8.2@oauth-sign extraneous
+├── object-assign@4.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object-assign@4.1.1@object-assign extraneous
+├── object-copy@0.1.0 extraneous
+├── object-keys@1.0.11 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object-keys@1.0.11@object-keys extraneous
+├── object-visit@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object-visit@1.0.1@object-visit extraneous
+├── object.omit@2.0.1 extraneous
+├── object.pick@1.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_object.pick@1.3.0@object.pick extraneous
+├── obuf@1.1.2 extraneous
+├── omit.js@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_omit.js@1.0.0@omit.js extraneous
+├── on-finished@2.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_on-finished@2.3.0@on-finished extraneous
+├── on-headers@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_on-headers@1.0.1@on-headers extraneous
+├── once@1.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_once@1.4.0@once extraneous
+├── onetime@2.0.1 extraneous
+├── opn@5.2.0 extraneous
+├── optimist@0.6.1 extraneous
+├── optionator@0.8.2 extraneous
+├── original@1.0.0 extraneous
+├── os-browserify@0.3.0 extraneous
+├── os-homedir@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_os-homedir@1.0.2@os-homedir extraneous
+├── os-locale@2.1.0 extraneous
+├── os-tmpdir@1.0.2 extraneous
+├── p-finally@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_p-finally@1.0.0@p-finally extraneous
+├── p-limit@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_p-limit@1.2.0@p-limit extraneous
+├── p-locate@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_p-locate@2.0.0@p-locate extraneous
+├── p-map@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_p-map@1.2.0@p-map extraneous
+├── p-try@1.0.0 extraneous
+├── package-json@4.0.1 extraneous
+├── pako@1.0.6 extraneous
+├── param-case@2.1.1 extraneous
+├── parse-asn1@5.1.0 extraneous
+├── parse-glob@3.0.4 extraneous
+├── parse-json@2.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_parse-json@2.2.0@parse-json extraneous
+├── parse-passwd@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_parse-passwd@1.0.0@parse-passwd extraneous
+├── parse5@1.5.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_parse5@1.5.1@parse5 extraneous
+├── parseurl@1.3.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_parseurl@1.3.2@parseurl extraneous
+├── pascalcase@0.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_pascalcase@0.1.1@pascalcase extraneous
+├── path-browserify@0.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_path-browserify@0.0.0@path-browserify extraneous
+├── path-dirname@1.0.2 extraneous
+├── path-exists@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_path-exists@3.0.0@path-exists extraneous
+├── path-is-absolute@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_path-is-absolute@1.0.1@path-is-absolute extraneous
+├── path-is-inside@1.0.2 extraneous
+├── path-key@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_path-key@2.0.1@path-key extraneous
+├── path-parse@1.0.5 extraneous
+├── path-to-regexp@0.1.7 extraneous
+├── path-type@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_path-type@2.0.0@path-type extraneous
+├── pbkdf2@3.0.14 extraneous
+├── performance-now@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_performance-now@2.1.0@performance-now extraneous
+├── pify@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_pify@3.0.0@pify extraneous
+├── pinkie@2.0.4 extraneous
+├── pinkie-promise@2.0.1 extraneous
+├── pkg-dir@2.0.0 extraneous
+├── popper.js@1.14.0 extraneous
+├── portfinder@1.0.13 extraneous
+├── posix-character-classes@0.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_posix-character-classes@0.1.1@posix-character-classes extraneous
+├── postcss@6.0.19 extraneous
+├── postcss-calc@5.3.1 extraneous
+├── postcss-colormin@2.2.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-colormin@2.2.2@postcss-colormin extraneous
+├── postcss-convert-values@2.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-convert-values@2.6.1@postcss-convert-values extraneous
+├── postcss-discard-comments@2.0.4 extraneous
+├── postcss-discard-duplicates@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-discard-duplicates@2.1.0@postcss-discard-duplicates extraneous
+├── postcss-discard-empty@2.1.0 extraneous
+├── postcss-discard-overridden@0.1.1 extraneous
+├── postcss-discard-unused@2.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-discard-unused@2.2.3@postcss-discard-unused extraneous
+├── postcss-filter-plugins@2.0.2 extraneous
+├── postcss-flexbugs-fixes@3.2.0 extraneous
+├── postcss-load-config@1.2.0 extraneous
+├── postcss-load-options@1.2.0 extraneous
+├── postcss-load-plugins@2.3.0 extraneous
+├── postcss-loader@2.0.8 extraneous
+├── postcss-merge-idents@2.1.7 extraneous
+├── postcss-merge-longhand@2.0.2 extraneous
+├── postcss-merge-rules@2.1.2 extraneous
+├── postcss-message-helpers@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-message-helpers@2.0.0@postcss-message-helpers extraneous
+├── postcss-minify-font-values@1.0.5 extraneous
+├── postcss-minify-gradients@1.0.5 extraneous
+├── postcss-minify-params@1.2.2 extraneous
+├── postcss-minify-selectors@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-minify-selectors@2.1.1@postcss-minify-selectors extraneous
+├── postcss-modules-extract-imports@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-modules-extract-imports@1.1.0@postcss-modules-extract-imports extraneous
+├── postcss-modules-local-by-default@1.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-modules-local-by-default@1.2.0@postcss-modules-local-by-default extraneous
+├── postcss-modules-scope@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-modules-scope@1.1.0@postcss-modules-scope extraneous
+├── postcss-modules-values@1.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-modules-values@1.3.0@postcss-modules-values extraneous
+├── postcss-normalize-charset@1.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-normalize-charset@1.1.1@postcss-normalize-charset extraneous
+├── postcss-normalize-url@3.0.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-normalize-url@3.0.8@postcss-normalize-url extraneous
+├── postcss-ordered-values@2.2.3 extraneous
+├── postcss-reduce-idents@2.4.0 extraneous
+├── postcss-reduce-initial@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-reduce-initial@1.0.1@postcss-reduce-initial extraneous
+├── postcss-reduce-transforms@1.0.4 extraneous
+├── postcss-selector-parser@2.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-selector-parser@2.2.3@postcss-selector-parser extraneous
+├── postcss-svgo@2.1.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-svgo@2.1.6@postcss-svgo extraneous
+├── postcss-unique-selectors@2.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-unique-selectors@2.0.2@postcss-unique-selectors extraneous
+├── postcss-value-parser@3.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-value-parser@3.3.0@postcss-value-parser extraneous
+├── postcss-zindex@2.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_postcss-zindex@2.2.0@postcss-zindex extraneous
+├── prelude-ls@1.1.2 extraneous
+├── prepend-http@1.0.4 extraneous
+├── preserve@0.2.0 extraneous
+├── pretty-bytes@4.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_pretty-bytes@4.0.2@pretty-bytes extraneous
+├── pretty-error@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_pretty-error@2.1.1@pretty-error extraneous
+├── pretty-format@20.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_pretty-format@20.0.3@pretty-format extraneous
+├── private@0.1.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_private@0.1.8@private extraneous
+├── process@0.11.10 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_process@0.11.10@process extraneous
+├── process-nextick-args@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_process-nextick-args@2.0.0@process-nextick-args extraneous
+├── promise@8.0.1 extraneous
+├── prop-types@15.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prop-types@15.6.1@prop-types extraneous
+├── proxy-addr@2.0.3 extraneous
+├── prr@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_prr@1.0.1@prr extraneous
+├── pseudomap@1.0.2 extraneous
+├── public-encrypt@4.0.0 extraneous
+├── punycode@1.3.2 extraneous
+├── q@1.5.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_q@1.5.1@q extraneous
+├── qs@6.5.1 extraneous
+├── query-string@4.3.4 extraneous
+├── querystring@0.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_querystring@0.2.0@querystring extraneous
+├── querystring-es3@0.2.1 extraneous
+├── querystringify@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_querystringify@1.0.0@querystringify extraneous
+├── raf@3.4.0 extraneous
+├── randomatic@1.1.7 extraneous
+├── randombytes@2.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_randombytes@2.0.6@randombytes extraneous
+├── randomfill@1.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_randomfill@1.0.4@randomfill extraneous
+├── range-parser@1.2.0 extraneous
+├── raw-body@2.3.2 extraneous
+├── rc@1.2.6 extraneous
+├── rc-align@2.3.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-align@2.3.6@rc-align extraneous
+├── rc-animate@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-animate@2.4.4@rc-animate extraneous
+├── rc-calendar@9.6.0 extraneous
+├── rc-cascader@0.12.2 extraneous
+├── rc-checkbox@2.1.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-checkbox@2.1.5@rc-checkbox extraneous
+├── rc-collapse@1.8.0 extraneous
+├── rc-dialog@7.1.3 extraneous
+├── rc-dropdown@2.1.1 extraneous
+├── rc-editor-core@0.8.6 extraneous
+├── rc-editor-mention@1.1.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-editor-mention@1.1.6@rc-editor-mention extraneous
+├── rc-form@2.1.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-form@2.1.7@rc-form extraneous
+├── rc-hammerjs@0.6.9 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-hammerjs@0.6.9@rc-hammerjs extraneous
+├── rc-input-number@4.0.2 extraneous
+├── rc-menu@6.2.6 extraneous
+├── rc-notification@3.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-notification@3.0.1@rc-notification extraneous
+├── rc-pagination@1.15.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-pagination@1.15.1@rc-pagination extraneous
+├── rc-progress@2.2.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-progress@2.2.5@rc-progress extraneous
+├── rc-rate@2.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-rate@2.4.0@rc-rate extraneous
+├── rc-select@7.7.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-select@7.7.5@rc-select extraneous
+├── rc-slider@8.6.1 extraneous
+├── rc-steps@3.1.0 extraneous
+├── rc-switch@1.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-switch@1.6.0@rc-switch extraneous
+├── rc-table@6.1.7 extraneous
+├── rc-tabs@9.2.4 extraneous
+├── rc-time-picker@3.3.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-time-picker@3.3.1@rc-time-picker extraneous
+├── rc-tooltip@3.7.0 extraneous
+├── rc-tree@1.7.11 extraneous
+├── rc-tree-select@1.12.9 extraneous
+├── rc-trigger@2.3.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-trigger@2.3.4@rc-trigger extraneous
+├── rc-upload@2.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rc-upload@2.4.4@rc-upload extraneous
+├── rc-util@4.4.0 extraneous
+├── react@16.2.0 extraneous
+├── react-dev-utils@4.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-dev-utils@4.2.1@react-dev-utils extraneous
+├── react-dom@16.2.0 extraneous
+├── react-error-overlay@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-error-overlay@3.0.0@react-error-overlay extraneous
+├── react-lazy-load@3.0.13 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-lazy-load@3.0.13@react-lazy-load extraneous
+├── react-popper@0.8.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-popper@0.8.1@react-popper extraneous
+├── react-portal@4.1.3 extraneous
+├── react-router@4.2.0 extraneous
+├── react-router-dom@4.2.2 extraneous
+├── react-scripts-ts@2.13.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_react-scripts-ts@2.13.0@react-scripts-ts extraneous
+├── react-slick@0.20.0 extraneous
+├── react-transition-group@2.2.1 extraneous
+├── reactstrap@5.0.0-beta.2 extraneous
+├── read-pkg@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_read-pkg@2.0.0@read-pkg extraneous
+├── read-pkg-up@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_read-pkg-up@2.0.0@read-pkg-up extraneous
+├── readable-stream@1.0.34 extraneous
+├── readdirp@2.1.0 extraneous
+├── recursive-readdir@2.2.1 extraneous
+├── redent@1.0.0 extraneous
+├── reduce-css-calc@1.3.0 extraneous
+├── reduce-function-call@1.0.2 extraneous
+├── regenerate@1.3.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_regenerate@1.3.3@regenerate extraneous
+├── regenerator-runtime@0.11.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_regenerator-runtime@0.11.1@regenerator-runtime extraneous
+├── regex-cache@0.4.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_regex-cache@0.4.4@regex-cache extraneous
+├── regex-not@1.0.2 extraneous
+├── regexpu-core@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_regexpu-core@1.0.0@regexpu-core extraneous
+├── registry-auth-token@3.3.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_registry-auth-token@3.3.2@registry-auth-token extraneous
+├── registry-url@3.1.0 extraneous
+├── regjsgen@0.2.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_regjsgen@0.2.0@regjsgen extraneous
+├── regjsparser@0.1.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_regjsparser@0.1.5@regjsparser extraneous
+├── relateurl@0.2.7 extraneous
+├── remove-trailing-separator@1.1.0 extraneous
+├── renderkid@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_renderkid@2.0.1@renderkid extraneous
+├── repeat-element@1.1.2 extraneous
+├── repeat-string@1.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_repeat-string@1.6.1@repeat-string extraneous
+├── repeating@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_repeating@2.0.1@repeating extraneous
+├── request@2.85.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_request@2.85.0@request extraneous
+├── require-directory@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_require-directory@2.1.1@require-directory extraneous
+├── require-from-string@1.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_require-from-string@1.2.1@require-from-string extraneous
+├── require-main-filename@1.0.1 extraneous
+├── requires-port@1.0.0 extraneous
+├── resolve@1.1.7 extraneous
+├── resolve-cwd@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_resolve-cwd@2.0.0@resolve-cwd extraneous
+├── resolve-dir@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_resolve-dir@1.0.1@resolve-dir extraneous
+├── resolve-from@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_resolve-from@3.0.0@resolve-from extraneous
+├── resolve-pathname@2.2.0 extraneous
+├── resolve-url@0.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_resolve-url@0.2.1@resolve-url extraneous
+├── restore-cursor@2.0.0 extraneous
+├── ret@0.1.15 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ret@0.1.15@ret extraneous
+├── right-align@0.1.3 extraneous
+├── rimraf@2.6.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rimraf@2.6.2@rimraf extraneous
+├── ripemd160@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ripemd160@2.0.1@ripemd160 extraneous
+├── rmc-feedback@1.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rmc-feedback@1.0.4@rmc-feedback extraneous
+├── run-async@2.3.0 extraneous
+├── rx-lite@4.0.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_rx-lite@4.0.8@rx-lite extraneous
+├── rx-lite-aggregates@4.0.8 extraneous
+├── safe-buffer@5.1.1 extraneous
+├── safe-regex@1.1.0 extraneous
+├── sane@1.6.0 extraneous
+├── sax@1.2.4 extraneous
+├── schema-utils@0.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_schema-utils@0.3.0@schema-utils extraneous
+├── select-hose@2.0.0 extraneous
+├── selfsigned@1.10.2 extraneous
+├── semver@5.5.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_semver@5.5.0@semver extraneous
+├── semver-diff@2.1.0 extraneous
+├── send@0.16.2 extraneous
+├── serve-index@1.9.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_serve-index@1.9.1@serve-index extraneous
+├── serve-static@1.13.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_serve-static@1.13.2@serve-static extraneous
+├── serviceworker-cache-polyfill@4.0.0 extraneous
+├── set-blocking@2.0.0 extraneous
+├── set-immediate-shim@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_set-immediate-shim@1.0.1@set-immediate-shim extraneous
+├── set-value@0.4.3 extraneous
+├── setimmediate@1.0.5 extraneous
+├── setprototypeof@1.1.0 extraneous
+├── sha.js@2.4.10 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_sha.js@2.4.10@sha.js extraneous
+├── shallow-equal@1.0.0 extraneous
+├── shallowequal@0.2.2 extraneous
+├── shebang-command@1.2.0 extraneous
+├── shebang-regex@1.0.0 extraneous
+├── shell-quote@1.6.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_shell-quote@1.6.1@shell-quote extraneous
+├── shellwords@0.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_shellwords@0.1.1@shellwords extraneous
+├── signal-exit@3.0.2 extraneous
+├── slash@1.0.0 extraneous
+├── snapdragon@0.8.2 extraneous
+├── snapdragon-node@2.1.1 extraneous
+├── snapdragon-util@3.0.1 extraneous
+├── sntp@2.1.0 extraneous
+├── sockjs@0.3.18 extraneous
+├── sockjs-client@1.1.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_sockjs-client@1.1.4@sockjs-client extraneous
+├── sort-keys@1.1.2 extraneous
+├── source-list-map@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_source-list-map@2.0.0@source-list-map extraneous
+├── source-map@0.6.1 extraneous
+├── source-map-loader@0.2.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_source-map-loader@0.2.3@source-map-loader extraneous
+├── source-map-resolve@0.5.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_source-map-resolve@0.5.1@source-map-resolve extraneous
+├── source-map-support@0.4.18 extraneous
+├── source-map-url@0.4.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_source-map-url@0.4.0@source-map-url extraneous
+├── spdx-correct@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_spdx-correct@3.0.0@spdx-correct extraneous
+├── spdx-exceptions@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_spdx-exceptions@2.1.0@spdx-exceptions extraneous
+├── spdx-expression-parse@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_spdx-expression-parse@3.0.0@spdx-expression-parse extraneous
+├── spdx-license-ids@3.0.0 extraneous
+├── spdy@3.4.7 extraneous
+├── spdy-transport@2.0.20 extraneous
+├── split-string@3.1.0 extraneous
+├── sprintf-js@1.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_sprintf-js@1.0.3@sprintf-js extraneous
+├── sshpk@1.14.1 extraneous
+├── static-extend@0.1.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_static-extend@0.1.2@static-extend extraneous
+├── statuses@1.4.0 extraneous
+├── stream-browserify@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_stream-browserify@2.0.1@stream-browserify extraneous
+├── stream-http@2.8.0 extraneous
+├── strict-uri-encode@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_strict-uri-encode@1.1.0@strict-uri-encode extraneous
+├── string-convert@0.2.1 extraneous
+├── string-length@1.0.1 extraneous
+├── string-width@2.1.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_string-width@2.1.1@string-width extraneous
+├── string_decoder@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_string_decoder@1.1.0@string_decoder extraneous
+├── stringstream@0.0.5 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_stringstream@0.0.5@stringstream extraneous
+├── strip-ansi@4.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_strip-ansi@4.0.0@strip-ansi extraneous
+├── strip-bom@2.0.0 extraneous
+├── strip-eof@1.0.0 extraneous
+├── strip-indent@1.0.1 extraneous
+├── strip-json-comments@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_strip-json-comments@2.0.1@strip-json-comments extraneous
+├── style-loader@0.19.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_style-loader@0.19.0@style-loader extraneous
+├── supports-color@2.0.0 extraneous
+├── svgo@0.7.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_svgo@0.7.2@svgo extraneous
+├── sw-precache@5.2.1 extraneous
+├── sw-precache-webpack-plugin@0.11.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_sw-precache-webpack-plugin@0.11.4@sw-precache-webpack-plugin extraneous
+├── sw-toolbox@3.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_sw-toolbox@3.6.0@sw-toolbox extraneous
+├── symbol-tree@3.2.2 extraneous
+├── tapable@0.2.8 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_tapable@0.2.8@tapable extraneous
+├── term-size@1.2.0 extraneous
+├── test-exclude@4.2.1 extraneous
+├── text-table@0.2.0 extraneous
+├── throat@3.2.0 extraneous
+├── through@2.3.8 extraneous
+├── thunky@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_thunky@1.0.2@thunky extraneous
+├── time-stamp@2.0.0 extraneous
+├── timed-out@4.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_timed-out@4.0.1@timed-out extraneous
+├── timers-browserify@2.0.6 extraneous
+├── tmp@0.0.33 extraneous
+├── tmpl@1.0.4 extraneous
+├── to-arraybuffer@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_to-arraybuffer@1.0.1@to-arraybuffer extraneous
+├── to-fast-properties@1.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_to-fast-properties@1.0.3@to-fast-properties extraneous
+├── to-object-path@0.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_to-object-path@0.3.0@to-object-path extraneous
+├── to-regex@3.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_to-regex@3.0.2@to-regex extraneous
+├── to-regex-range@2.1.1 extraneous
+├── toposort@1.0.6 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_toposort@1.0.6@toposort extraneous
+├── tough-cookie@2.3.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_tough-cookie@2.3.4@tough-cookie extraneous
+├── tr46@0.0.3 extraneous
+├── trim-newlines@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_trim-newlines@1.0.0@trim-newlines extraneous
+├── trim-right@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_trim-right@1.0.1@trim-right extraneous
+├── ts-jest@20.0.14 extraneous
+├── ts-loader@2.3.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_ts-loader@2.3.7@ts-loader extraneous
+├── tsconfig-paths@3.1.1 extraneous
+├── tsconfig-paths-webpack-plugin@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_tsconfig-paths-webpack-plugin@2.0.0@tsconfig-paths-webpack-plugin extraneous
+├── tslib@1.9.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_tslib@1.9.0@tslib extraneous
+├── tslint@5.9.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_tslint@5.9.1@tslint extraneous
+├── tslint-react@3.5.1 extraneous
+├── tsutils@2.22.2 extraneous
+├── tty-browserify@0.0.0 extraneous
+├── tunnel-agent@0.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_tunnel-agent@0.6.0@tunnel-agent extraneous
+├── tweetnacl@0.14.5 extraneous
+├── type-check@0.3.2 extraneous
+├── type-is@1.6.16 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_type-is@1.6.16@type-is extraneous
+├── typescript@2.7.2 extraneous
+├── ua-parser-js@0.7.17 extraneous
+├── uglify-js@3.3.14 extraneous
+├── uglify-to-browserify@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_uglify-to-browserify@1.0.2@uglify-to-browserify extraneous
+├── uglifyjs-webpack-plugin@0.4.6 extraneous
+├── union-value@1.0.0 extraneous
+├── uniq@1.0.1 extraneous
+├── uniqid@4.1.1 extraneous
+├── uniqs@2.0.0 extraneous
+├── unique-string@1.0.0 extraneous
+├── universalify@0.1.1 extraneous
+├── unpipe@1.0.0 extraneous
+├── unset-value@1.0.0 extraneous
+├── unzip-response@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_unzip-response@2.0.1@unzip-response extraneous
+├── upath@1.0.4 extraneous
+├── update-notifier@2.3.0 extraneous
+├── upper-case@1.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_upper-case@1.1.3@upper-case extraneous
+├── urijs@1.19.1 extraneous
+├── urix@0.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_urix@0.1.0@urix extraneous
+├── url@0.11.0 extraneous
+├── url-loader@0.6.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_url-loader@0.6.2@url-loader extraneous
+├── url-parse@1.0.5 extraneous
+├── url-parse-lax@1.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_url-parse-lax@1.0.0@url-parse-lax extraneous
+├── use@3.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_use@3.1.0@use extraneous
+├── util@0.10.3 extraneous
+├── util-deprecate@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_util-deprecate@1.0.2@util-deprecate extraneous
+├── utila@0.3.3 extraneous
+├── utils-merge@1.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_utils-merge@1.0.1@utils-merge extraneous
+├── uuid@3.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_uuid@3.2.1@uuid extraneous
+├── validate-npm-package-license@3.0.3 extraneous
+├── value-equal@0.4.0 extraneous
+├── vary@1.1.2 extraneous
+├── vendors@1.0.1 extraneous
+├── verror@1.10.0 extraneous
+├── vm-browserify@0.0.4 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_vm-browserify@0.0.4@vm-browserify extraneous
+├── walker@1.0.7 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_walker@1.0.7@walker extraneous
+├── warning@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_warning@3.0.0@warning extraneous
+├── watch@0.10.0 extraneous
+├── watchpack@1.5.0 extraneous
+├── wbuf@1.7.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_wbuf@1.7.3@wbuf extraneous
+├── webidl-conversions@4.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_webidl-conversions@4.0.2@webidl-conversions extraneous
+├── webpack@3.8.1 extraneous
+├── webpack-dev-middleware@1.12.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_webpack-dev-middleware@1.12.2@webpack-dev-middleware extraneous
+├── webpack-dev-server@2.9.4 extraneous
+├── webpack-manifest-plugin@1.3.2 extraneous
+├── webpack-sources@1.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_webpack-sources@1.1.0@webpack-sources extraneous
+├── websocket-driver@0.7.0 extraneous
+├── websocket-extensions@0.1.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_websocket-extensions@0.1.3@websocket-extensions extraneous
+├── whatwg-encoding@1.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_whatwg-encoding@1.0.3@whatwg-encoding extraneous
+├── whatwg-fetch@2.0.3 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_whatwg-fetch@2.0.3@whatwg-fetch extraneous
+├── whatwg-url@4.8.0 extraneous
+├── whet.extend@0.9.9 extraneous
+├── which@1.3.0 extraneous
+├── which-module@2.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_which-module@2.0.0@which-module extraneous
+├── widest-line@2.0.0 extraneous
+├── window-size@0.1.0 extraneous
+├── wordwrap@0.0.2 extraneous
+├── worker-farm@1.6.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_worker-farm@1.6.0@worker-farm extraneous
+├── wrap-ansi@2.1.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_wrap-ansi@2.1.0@wrap-ansi extraneous
+├── wrappy@1.0.2 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_wrappy@1.0.2@wrappy extraneous
+├── write-file-atomic@2.3.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_write-file-atomic@2.3.0@write-file-atomic extraneous
+├── xdg-basedir@3.0.0 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_xdg-basedir@3.0.0@xdg-basedir extraneous
+├── xml-char-classes@1.0.0 extraneous
+├── xml-name-validator@2.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_xml-name-validator@2.0.1@xml-name-validator extraneous
+├── xtend@4.0.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_xtend@4.0.1@xtend extraneous
+├── y18n@3.2.1 -> /Users/hippo/Documents/TranswarpCurrent/aiops_new/aiops/webservice/web/node_modules/_y18n@3.2.1@y18n extraneous
+├── yallist@2.1.2 extraneous
+├── yargs@7.1.0 extraneous
+└── yargs-parser@7.0.0 extraneous
+

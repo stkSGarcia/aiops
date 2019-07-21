@@ -1,0 +1,205 @@
+2018-08-07 11:56:56
+Full thread dump OpenJDK 64-Bit Server VM (25.172-b11 mixed mode):
+
+"Attach Listener" #21 daemon prio=9 os_prio=0 tid=0x00007fbd20001000 nid=0xbeb runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"DestroyJavaVM" #20 prio=5 os_prio=0 tid=0x00007fbd60013000 nid=0xb95 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"pool-1-thread-10" #19 prio=5 os_prio=0 tid=0x00007fbd608f0000 nid=0xbb4 waiting for monitor entry [0x00007fbd44446000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:26)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-9" #18 prio=5 os_prio=0 tid=0x00007fbd608ee800 nid=0xbb3 waiting for monitor entry [0x00007fbd44547000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test1(TestTask.java:17)
+	- waiting to lock <0x000000076d4a1050> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-8" #17 prio=5 os_prio=0 tid=0x00007fbd608ec800 nid=0xbb2 waiting for monitor entry [0x00007fbd44648000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:26)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-7" #16 prio=5 os_prio=0 tid=0x00007fbd608eb000 nid=0xbb1 waiting for monitor entry [0x00007fbd44749000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test1(TestTask.java:17)
+	- waiting to lock <0x000000076d4a1050> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-6" #15 prio=5 os_prio=0 tid=0x00007fbd608e9800 nid=0xbb0 waiting for monitor entry [0x00007fbd4484a000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:26)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-5" #14 prio=5 os_prio=0 tid=0x00007fbd608e7800 nid=0xbaf waiting for monitor entry [0x00007fbd4494b000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test1(TestTask.java:17)
+	- waiting to lock <0x000000076d4a1050> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-4" #13 prio=5 os_prio=0 tid=0x00007fbd608e6000 nid=0xbae waiting for monitor entry [0x00007fbd44a4c000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:26)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-3" #12 prio=5 os_prio=0 tid=0x00007fbd608e4000 nid=0xbad waiting for monitor entry [0x00007fbd44b4d000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test1(TestTask.java:17)
+	- waiting to lock <0x000000076d4a1050> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-2" #11 prio=5 os_prio=0 tid=0x00007fbd608e2000 nid=0xbac waiting for monitor entry [0x00007fbd44c4e000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:28)
+	- waiting to lock <0x000000076d4a1050> (a java.lang.Object)
+	- locked <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"pool-1-thread-1" #10 prio=5 os_prio=0 tid=0x00007fbd608e0800 nid=0xbab waiting for monitor entry [0x00007fbd44d4f000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at io.transwarp.aiops.jstack.TestTask.test1(TestTask.java:19)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	- locked <0x000000076d4a1050> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Service Thread" #9 daemon prio=9 os_prio=0 tid=0x00007fbd608c5000 nid=0xba9 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread2" #8 daemon prio=9 os_prio=0 tid=0x00007fbd608c0000 nid=0xba8 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #7 daemon prio=9 os_prio=0 tid=0x00007fbd608be800 nid=0xba7 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #6 daemon prio=9 os_prio=0 tid=0x00007fbd608bc800 nid=0xba6 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Monitor Ctrl-Break" #5 daemon prio=5 os_prio=0 tid=0x00007fbd608ba800 nid=0xba5 runnable [0x00007fbd4556d000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	- locked <0x000000076d4ff138> (a java.io.InputStreamReader)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	- locked <0x000000076d4ff138> (a java.io.InputStreamReader)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at com.intellij.rt.execution.application.AppMainV2$1.run(AppMainV2.java:64)
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 tid=0x00007fbd60187000 nid=0xba4 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=0 tid=0x00007fbd60153800 nid=0xb9d in Object.wait() [0x00007fbd46129000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076d108ed0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	- locked <0x000000076d108ed0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 tid=0x00007fbd6014f000 nid=0xb9c in Object.wait() [0x00007fbd4622a000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076d106bf8> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x000000076d106bf8> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"VM Thread" os_prio=0 tid=0x00007fbd60147800 nid=0xb9b runnable
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00007fbd60028000 nid=0xb96 runnable
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00007fbd6002a000 nid=0xb97 runnable
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x00007fbd6002b800 nid=0xb98 runnable
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x00007fbd6002d800 nid=0xb99 runnable
+
+"VM Periodic Task Thread" os_prio=0 tid=0x00007fbd608c7800 nid=0xbaa waiting on condition
+
+JNI global references: 12
+
+
+Found one Java-level deadlock:
+=============================
+"pool-1-thread-10":
+  waiting to lock monitor 0x00007fbd28006528 (object 0x000000076d4a1060, a java.lang.Object),
+  which is held by "pool-1-thread-2"
+"pool-1-thread-2":
+  waiting to lock monitor 0x00007fbd28006478 (object 0x000000076d4a1050, a java.lang.Object),
+  which is held by "pool-1-thread-1"
+"pool-1-thread-1":
+  waiting to lock monitor 0x00007fbd28006528 (object 0x000000076d4a1060, a java.lang.Object),
+  which is held by "pool-1-thread-2"
+
+Java stack information for the threads listed above:
+===================================================
+"pool-1-thread-10":
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:26)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+"pool-1-thread-2":
+	at io.transwarp.aiops.jstack.TestTask.test2(TestTask.java:28)
+	- waiting to lock <0x000000076d4a1050> (a java.lang.Object)
+	- locked <0x000000076d4a1060> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+"pool-1-thread-1":
+	at io.transwarp.aiops.jstack.TestTask.test1(TestTask.java:19)
+	- waiting to lock <0x000000076d4a1060> (a java.lang.Object)
+	- locked <0x000000076d4a1050> (a java.lang.Object)
+	at io.transwarp.aiops.jstack.TestTask.run(TestTask.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Found 1 deadlock.

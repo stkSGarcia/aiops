@@ -1,0 +1,55 @@
+.table_row_green {
+  color: #00b200;
+}
+
+.table_row_yellow {
+  color: #a39900;
+}
+
+.table_row_orange {
+  color: #c07a28;
+}
+
+.table_row_red {
+  color: #c40000;
+}
+
+.table_row_blue {
+  color: #3387c4;
+}
+
+.table_row_default {
+  color: #6a6a6a;
+}
+
+.table_row_bg {
+  background: #fafafa;
+}
+
+.table_row_white_bg1 {
+  background: #d2befa;
+}
+
+.table_row_white_bg2 {
+  background: #cc9ffa;
+}
+
+.table_row_black_bg1 {
+  background: #cacccd;
+}
+
+.table_row_black_bg2 {
+  background: #bec7cd;
+}
+
+.ant-table-column-sorter {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ant-table-thead > tr > th .anticon-filter {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ant-table-thead > tr > th .anticon-filter:hover {
+  color: #46b5ff;
+}

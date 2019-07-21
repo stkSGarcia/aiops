@@ -1,0 +1,41 @@
+{
+  "name": "mines",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "dependencies": {
+    "@types/node": "^10.7.0",
+    "@types/react": "^16.4.10",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-router-dom": "^4.3.0",
+    "antd": "^3.8.1",
+    "axios": "^0.18.0",
+    "echarts": "^4.2.0-rc.2",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "es6-promise": "^4.2.4",
+    "immutable": "^4.0.0-rc.12",
+    "moment": "^2.22.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.0",
+    "react-scripts-ts": "^3.1.0",
+    "reactstrap": "^7.0.2",
+    "redux": "^4.0.0",
+    "typescript": "^3.0.1",
+    "vis": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "ajv": "^6.5.2",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  },
+  "proxy": "http://127.0.0.1:8008/"
+}
